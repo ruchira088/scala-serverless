@@ -9,6 +9,4 @@ object Dependencies {
   lazy val awsLambdaJavaCore = "com.amazonaws" % "aws-lambda-java-core" % "1.2.0"
 
   lazy val playJson = "com.typesafe.play" %% "play-json" % "2.6.13"
-
-  lazy val dynamoDbSdk = "com.amazonaws" % "aws-java-sdk-dynamodb" % "1.11.475"
 }

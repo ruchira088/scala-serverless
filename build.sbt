@@ -18,8 +18,7 @@ lazy val root =
           Seq(
             awsLambdaJavaCore,
             awsLambdaJavaEvents,
-            playJson,
-            dynamoDbSdk
+            playJson
           )
       )
 
