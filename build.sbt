@@ -9,7 +9,7 @@ lazy val root =
       .settings(
         name := "scala-serverless",
         organization := "com.ruchij",
-        version := "0.0.1",
+        version := "0.0.2",
         scalaVersion := SCALA_VERSION,
         assemblyJarName in assembly := "scala-serverless.jar",
         buildInfoKeys := BuildInfoKey.ofN(name, organization, version, scalaVersion, sbtVersion),
